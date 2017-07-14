@@ -49,10 +49,6 @@
         <value>2400</value>
         </endOffset>
     </originOffsetRequest>
-    <fdsnDataSelect>
-      <user>juan.aragon@yale.edu</user>
-      <password>haLdk9klha3c</password>
-    </fdsnDataSelect>
     <sacWriter>
         <workingDir>seismograms</workingDir> <location>${station.code}/${event.getTime("yyyy.DDD.HH.mm.ss")}.${station.code}.SAC.${channel.code}</location>
         <phaseTimeHeader>
