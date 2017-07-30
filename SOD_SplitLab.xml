@@ -1,3 +1,6 @@
+<!-- J. Aragon 2017180. For requesting broadband channels from IRIS DMC for use in Splitlab for Matlab.
+to initiate download in working direcory use ~> sod -f SOD_Splitlab.xml
+Select file format yyyy.DDD.HH.mm.SAC.e in splitlab-->
 <?xml version="1.0" encoding="UTF-8"?>
 <sod>
  <eventArm>
@@ -22,7 +25,7 @@
 </eventArm>
 <networkArm>
     <fdsnStation/>
-    <networkCode>7A</networkCode>
+    <networkCode>TA</networkCode>
     <stationOR>
 		<stationCode>N49A</stationCode>
 		<stationCode>051A</stationCode>
